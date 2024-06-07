@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        .navBar{
+            list-style-type: none;
+        }
+        .nav{
+            display: inline;
+            padding: 10px;
+            margin-left: 30px;
+        }
+        .main{
+            text-align: center;
+        }
+
+        .footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navBar">
+                WELCOME 
+                <li class="nav"><a href="#home">Home</a> </li>
+                <li class="nav"><a href="#about">About</a> </li>
+                <li class="nav"><a href="#contact">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article>
+            <h1>Hello!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita iure quidem animi facilis quisquam ad, cupiditate debitis corporis cum, fugiat impedit et ducimus soluta obcaecati quo excepturi autem, fugit assumenda.</p>
+        </article>
+    </main>
+
+    <aside class="side">
+        <h3>Related Links</h3>
+        <ul>
+            <li><a href="#link1">First Link</a></li>
+            <li><a href="#link2">Second Link</a></li>
+            <li><a href="#link3">Third Link</a></li>
+        </ul>
+    </aside>
+
+    <footer class="footer">
+        <p>Contact us at:<a href="#official@gmail.com">Gmail</a></p>
+    </footer> 
+   
+</body>
+</html>

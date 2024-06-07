@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table{
+            width:100% ;
+        }
+        th,td{
+            border: 1px;
+            padding: 10px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Weekly Shedule</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time Table</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Morning</td>
+                <td>Yoga</td>
+                <td>Yoga</td>
+                <td>Gym</td>
+                <td>Gym</td>
+                <td>Cycling</td>
+                <td>Cycling</td>
+                <td>Jogging</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Afternoon</td>
+                <td>Study</td>
+                <td>Lectures</td>
+                <td>Project</td>
+                <td>Reading</td>
+                <td>Project</td>
+                <td>Lectures</td>
+                <td>Meeting</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Evening</td>
+                <td>Football</td>
+                <td>Mall</td>
+                <td>Rides</td>
+                <td>Football</td>
+                <td>Movie</td>
+                <td>Shopping</td>
+                <td>Dinner</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

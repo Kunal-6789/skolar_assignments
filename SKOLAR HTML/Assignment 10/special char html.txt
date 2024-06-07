@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Document with Special Characters</title>
+</head>
+<body>
+    
+    <h1>Special Characters in HTML</h1>
+    <p>
+        In HTML, certain characters are reserved and must be represented by special entities. These characters include:
+    </p>
+    <ul>
+        <li>&amp; - Represents the ampersand (&) character.</li>
+       
+        <li>&lt; - Represents the less-than (<) character.</li>
+        
+        <li>&gt; - Represents the greater-than (>) character.</li>
+       
+        <li>&copy; - Represents the copyright (©) symbol.</li>
+
+        <li>&reg; - Represents the registered (&reg;) symbol.</li>
+        
+        <li>&trade; - Represents the trademark (&trade;) symbol.</li>
+    </ul>
+
+</body>
+</html>

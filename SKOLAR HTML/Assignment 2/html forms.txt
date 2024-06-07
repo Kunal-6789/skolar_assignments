@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>    
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+    </div>
+    <br>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+    </div>
+    <br>
+    <div>
+        <label for="terms">
+        <input type="checkbox" name="terms" required>I agree to the terms and conditions</label>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    
+</body>
+</html>
